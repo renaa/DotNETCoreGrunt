@@ -1,0 +1,1 @@
+body .svg-wrapper{display:flex;padding:0;background-color:#222;justify-content:center;align-items:center}@-webkit-keyframes flicker{0%{opacity:.4}to{opacity:1}}@keyframes flicker{0%{opacity:.4}to{opacity:1}}body #red{-webkit-animation:flicker 2s ease infinite alternate;animation:flicker 2s ease infinite alternate}
