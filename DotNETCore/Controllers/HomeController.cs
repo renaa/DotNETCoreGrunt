@@ -39,5 +39,15 @@ namespace DotNETCore.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult CssSlidingPerspective ()
+        {
+            return View();
+        }
+
+        public IActionResult CssImageCarousel ()
+        {
+            return View();
+        }
     }
 }
